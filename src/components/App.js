@@ -1,5 +1,5 @@
 import { Provider } from 'react-redux'
-import store from './Store'
+import Store from './Store'
 import DisplayInfo from './DisplayInfo'
 
 import React from "react";
@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
         <h1>User Information</h1>
-        <Provider store={store}>
+        <Provider store={Store}>
           <DisplayInfo />
         </Provider>
     </div>
